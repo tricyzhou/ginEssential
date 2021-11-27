@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd78c8e8-a3ce-4f1b-9ac5-c85d910ec3f6" name="Default Changelist" comment="" />
+    <list default="true" id="fd78c8e8-a3ce-4f1b-9ac5-c85d910ec3f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/CategoryController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/PostController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/RestController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dto/user_dto.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/CORSMiddleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/RecoverMiddleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/CategoryRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vo/category_request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vo/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UserController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/AuthMiddleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/AuthMiddleware.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -20,12 +50,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ginEssential" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="tricyzhou.com/ginessential" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
